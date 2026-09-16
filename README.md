@@ -1,4 +1,8 @@
-# 🌐 DGTL - Website Vulnerability Finder
+# 🌐 DGTL-RT - Website Vulnerability Finder
+
+<p align="center">
+  <img src="https://github.com/shahid2005a/DGTL-RT/blob/main/DGTL%20WEB/Web.png" alt="DGTL-RT Logo" width="350"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00FF00&center=true&vCenter=true&width=750&lines=DGTL+Website+Vulnerability+Finder;Full+Website+Deep+Scan;Nikto+Audit+%7C+URL+Extractor;By+Aryan+Afridi" alt="Typing SVG" />
@@ -9,14 +13,14 @@
 📊 Project Status
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/shahid2005a?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/shahid2005a?style=for-the-badge&logo=github&color=blue" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/shahid2005a?style=for-the-badge&logo=github&color=red" alt="Watchers"/>
-  <img src="https://img.shields.io/github/issues/shahid2005a?style=for-the-badge&logo=github&color=orange" alt="Issues"/>
-  <img src="https://img.shields.io/github/license/shahid2005a?style=for-the-badge&logo=github&color=purple" alt="License"/>
-  <img src="https://img.shields.io/github/contributors/shahid2005a?style=for-the-badge&logo=github&color=green" alt="Contributors"/>
-  <img src="https://img.shields.io/github/last-commit/shahid2005a?style=for-the-badge&logo=github&color=blueviolet" alt="Last Commit"/>
-  <img src="https://img.shields.io/github/issues-pr/shahid2005a?style=for-the-badge&logo=github&color=yellowgreen" alt="Pull Requests"/>
+  <img src="https://img.shields.io/github/stars/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=blue" alt="Forks"/>
+  <img src="https://img.shields.io/github/watchers/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=red" alt="Watchers"/>
+  <img src="https://img.shields.io/github/issues/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=orange" alt="Issues"/>
+  <img src="https://img.shields.io/github/license/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=purple" alt="License"/>
+  <img src="https://img.shields.io/github/contributors/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=green" alt="Contributors"/>
+  <img src="https://img.shields.io/github/last-commit/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=blueviolet" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/issues-pr/shahid2005a/DGTL-RT?style=for-the-badge&logo=github&color=yellowgreen" alt="Pull Requests"/>
 </p>
 
 <p align="center">
@@ -163,9 +167,9 @@
 ```bash
 sudo apt update -y
 sudo apt install python3 python3-pip git nikto whois -y
-git clone https://github.com/shahid2005a/DGTL-Website-Vulnerability-Finder.git
-cd DGTL-Website-Vulnerability-Finder
-python3 dgtl.py
+git clone https://github.com/shahid2005a/DGTL-RT.git
+cd DGTL-RT
+python3 main.py
 ```
 
 📱 Termux (Android) Installation
@@ -175,15 +179,15 @@ pkg update && pkg upgrade -y
 pkg install python perl git whois -y
 git clone https://github.com/sullo/nikto ~/nikto
 chmod +x ~/nikto/program/nikto.pl
-git clone https://github.com/shahid2005a/DGTL-Website-Vulnerability-Finder.git
-cd DGTL-Website-Vulnerability-Finder
-python dgtl.py
+git clone https://github.com/shahid2005a/DGTL-RT.git
+cd DGTL-RT
+python main.py
 ```
 
 ⚡ Single Command Installation (Termux)
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python perl git whois -y && git clone https://github.com/sullo/nikto ~/nikto && chmod +x ~/nikto/program/nikto.pl && git clone https://github.com/shahid2005a/DGTL-Website-Vulnerability-Finder.git && cd DGTL-Website-Vulnerability-Finder && python dgtl.py
+pkg update && pkg upgrade -y && pkg install python perl git whois -y && git clone https://github.com/sullo/nikto ~/nikto && chmod +x ~/nikto/program/nikto.pl && git clone https://github.com/shahid2005a/DGTL-RT.git && cd DGTL-RT && python main.py
 ```
 
 ---
@@ -253,7 +257,7 @@ pkg update && pkg upgrade -y && pkg install python perl git whois -y && git clon
     </tr>
     <tr>
       <td>1️⃣</td>
-      <td>Launch Tool - Run <code>python dgtl.py</code></td>
+      <td>Launch Tool - Run <code>python main.py</code></td>
       <td><img src="https://img.shields.io/badge/✅-Done-brightgreen"/></td>
     </tr>
     <tr>
@@ -446,13 +450,13 @@ pkg update && pkg upgrade -y && pkg install python perl git whois -y && git clon
 
 ```bash
 # Clone Repository
-git clone https://github.com/shahid2005a/DGTL-Website-Vulnerability-Finder.git
+git clone https://github.com/shahid2005a/DGTL-RT.git
 
 # Navigate to Directory
-cd DGTL-Website-Vulnerability-Finder
+cd DGTL-RT
 
 # Run Tool
-python dgtl.py
+python main.py
 
 # Follow On-Screen Instructions
 ```
