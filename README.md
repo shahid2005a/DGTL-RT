@@ -162,7 +162,7 @@
 
 📦 Installation Guide
 
-⚡ Kali Linux / Debian / Ubuntu Installation
+💻 Kali Linux Command 
 
 ```bash
 sudo apt update -y
@@ -172,23 +172,12 @@ cd DGTL-RT
 python3 main.py
 ```
 
-📱 Termux (Android) Installation
+📱 Termux (Android) Single Command 
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install python perl git whois -y
-git clone https://github.com/sullo/nikto ~/nikto
-chmod +x ~/nikto/program/nikto.pl
-git clone https://github.com/shahid2005a/DGTL-RT.git
-cd DGTL-RT
-python main.py
+yes | pkg update && yes | pkg upgrade -y && pkg install python perl git whois -y && git clone https://github.com/sullo/nikto ~/nikto && chmod +x ~/nikto/program/nikto.pl && git clone https://github.com/shahid2005a/DGTL-RT.git && cd DGTL-RT && python main.py
 ```
 
-⚡ Single Command Installation (Termux)
-
-```bash
-pkg update && pkg upgrade -y && pkg install python perl git whois -y && git clone https://github.com/sullo/nikto ~/nikto && chmod +x ~/nikto/program/nikto.pl && git clone https://github.com/shahid2005a/DGTL-RT.git && cd DGTL-RT && python main.py
-```
 
 ---
 
